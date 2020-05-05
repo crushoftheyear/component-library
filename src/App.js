@@ -1,9 +1,21 @@
 import React from 'react'
+import { TextInput } from 'components/TextInput'
+import { Button } from 'components/Button'
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <>
+      <TextInput
+        id=""
+        label=""
+        placeholder=""
+        state=""
+        setState="" />
+
+      <Button
+        label=""
+        className=""
+        submitHandler="" />
+    </>
   )
 }
